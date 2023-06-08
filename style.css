@@ -442,3 +442,57 @@ body {
   text-align: center;
   font-size: 20px;
 }
+
+.galery-title {
+  font-family: 'Tinos', serif;
+  font-size: 54px; 
+  text-align: center;
+  padding-top: 100px;
+  margin-bottom: 60px;
+}
+
+.galery-title span {
+  color: rgba(214, 126, 52, 1);
+}
+
+.galery-content {
+  display: flex;
+}
+
+.galery-left {
+  margin-right: 20px;
+}
+
+.galery-down, .galery-up {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+
+.cook {
+  padding-bottom: 100px;
+}
+.cook-title {
+  font-family: 'Tinos', serif;
+  font-size: 54px; 
+  text-align: center;
+  padding-top: 100px;
+  margin-bottom: 100px;
+}
+
+.cook-title span {
+  color: rgba(214, 126, 52, 1); 
+}
+
+.cook-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer {
+  background-color: #000;
+  padding: 50px 0px;
+  color: #fff;
+  text-align: center;
+}
