@@ -27,7 +27,9 @@
 </head>
 <body>
   <div class="header">
+    
     <div class="container">
+      <a name="main"></a>
       <div class="header-line">
 
         <div class="header-logo">
@@ -35,10 +37,10 @@
         </div>
 
         <div class="nav">
-          <a class="nav-item" href="@">ГЛАВАНЯ</a>
-          <a class="nav-item" href="@">МЕНЮ</a>
-          <a class="nav-item" href="@">О НАС</a>
-          <a class="nav-item" href="@">БРОНЬ</a>
+          <a class="nav-item" href="#main">ГЛАВАНЯ</a>
+          <a class="nav-item" href="#menu_eats">МЕНЮ</a>
+          <a class="nav-item" href="#about_us">О НАС</a>
+          <a class="nav-item" href="#booking">БРОНЬ</a>
         </div>
   
         <div class="cart">
@@ -67,9 +69,16 @@
         </div>
 
         <div class="burger-menu">
-          <a href="">
+          <button id="burger">
             <img src="burger-img.png">
-          </a>
+          </button>
+
+          <div id="menu" class="burger-slide disp">
+            <a class="nav-item block" href="#main">ГЛАВАНЯ</a>
+            <a class="nav-item block" href="#menu_eats">МЕНЮ</a>
+            <a class="nav-item block" href="#about_us">О НАС</a>
+            <a class="nav-item block" href="#booking">БРОНЬ</a>
+          </div>
         </div>
 
       </div>
@@ -98,6 +107,7 @@
   </div>
   <div class="cards">
     <div class="container">
+      <p><a name="about_us"></a></p>
       <div class="cards-holder">
 
         <div class="card">
@@ -245,6 +255,7 @@
   </div>
 
   <div class="menu">
+    <p><a name="menu_eats"></a></p>
     <div class="container">
         <div class="menu-title">
           Наше меню
@@ -373,5 +384,7 @@
   <div class="footer">
     Copyright 2023
   </div>
+
+  <script src="app.js"></script>
 </body>
 </html>

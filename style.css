@@ -148,6 +148,24 @@ body {
   display: none;
 }
 
+.burger-slide {
+  position: absolute;
+}
+
+button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.disp {
+  display: none;
+}
+
+.block {
+  display: block;
+}
+
 .cards-holder {
   display: flex;
   justify-content: space-between;
@@ -217,11 +235,11 @@ body {
   width: 444px;
   justify-content: center;
   margin-top: 40px;
-  margin-left: 30px;
 }
 
 .number-item {
-  margin-right: 60px;
+  margin-right: 30px;
+  margin-left: 30px;
   text-align: center;
   font-size: 40px;
   color: #BC9060;
