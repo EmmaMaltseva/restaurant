@@ -7,7 +7,7 @@ body {
 }
 
 .header {
-  background-image: url('bg.jpg');
+  background-image: url('img/bg.jpg');
   height: 100vh; /*100vh -вся высота экрана*/
   background-repeat: no-repeat;
   background-size: cover; /*картинка растянется на весь экран*/
@@ -282,7 +282,7 @@ button {
 
 
 .black-block {
-  background-image: url(black-bg.jpg);
+  background-image: url('img/black-bg.jpg');
   padding: 80px 0px;
 } 
 .block-holder {
@@ -359,7 +359,7 @@ button {
 
 
 .menu {
-  background-image: url(menu-bg.jpg);
+  background-image: url('img/menu-bg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 226px;
